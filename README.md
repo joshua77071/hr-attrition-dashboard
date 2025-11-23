@@ -1,12 +1,12 @@
 📊 HR Attrition Dashboard
 
-Tools: Excel • Power BI
+Tools: Excel • MySQL • Power BI
 Dataset: 5000 employees
 
 📌 Project Overview
 
 This project analyzes a 5000-row HR dataset to uncover insights related to employee attrition, salary, department trends, job roles, and performance.
-The full workflow includes data cleaning, exploring HR patterns, and building an interactive Power BI dashboard.
+The workflow includes data cleaning, SQL analysis, and an interactive Power BI dashboard.
 
 🗂 Dataset Features
 
@@ -39,9 +39,25 @@ Handled missing & inconsistent values
 
 Created Age Groups and Salary Ranges
 
-Added Attrition Flag for analysis
+Added an Attrition Flag for SQL analysis
 
-2. Dashboard Insights (Power BI)
+2. SQL Analysis (MySQL)
+
+Performed HR insights such as:
+
+Total Employees
+
+Total Attrition & Attrition Rate
+
+Department-wise Attrition
+
+Job Role-wise Attrition
+
+Age Group & Salary Range patterns
+
+Performance Rating vs Attrition
+
+3. Dashboard Insights (Power BI)
 
 Includes:
 
@@ -65,7 +81,7 @@ data/hr_attrition_5000.csv – Dataset
 
 powerbi/hr_attrition_dashboard.pbix – Dashboard
 
-sql/hr_attrition_analysis.sql - SQL
+sql/hr_attrition_analysis.sql – SQL Queries
 
 README.md – Documentation
 
@@ -73,11 +89,15 @@ README.md – Documentation
 
 Excel
 
+MySQL
+
 Power BI
 
 HR Analytics
 
 Data Cleaning
+
+SQL Analysis
 
 Dashboard Design
 
